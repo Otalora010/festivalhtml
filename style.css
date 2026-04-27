@@ -72,11 +72,14 @@ header {
 }
 
 .card {
-    background: #1a1a1a;
+    background-color: #2a2a2a;
+    border-left: 4px solid #c47f3a; /* ese color cobre elegante */
     padding: 20px;
     border-radius: 10px;
-    transition: 0.3s;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    color: #e4e4e4;
 }
+
 
 .card:hover {
     transform: scale(1.05);
@@ -89,6 +92,7 @@ header {
 
 .festival {
     padding: 60px 20px;
+    text-align: center;
 }
 
 .festival-contenedor {
