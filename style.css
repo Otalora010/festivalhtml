@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -88,20 +87,54 @@ header {
 .card h3 {
     color: gold;
 }
-
-
-.festival {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.festival-contenedor {
+.acerca-section {
+    padding: 70px 0;
     display: flex;
-    gap: 10px;
     justify-content: center;
-    align-items: center;
 }
 
+.acerca-contenedor {
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+    gap: 50px;              
+    max-width: 1000px;        
+    padding: 0 20px;
+}
+
+.acerca-texto {
+    max-width: 450px;
+    text-align: left;         
+}
+
+.acerca-texto h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.acerca-texto h3 {
+    margin-bottom: 20px;
+}
+
+.acerca-texto p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.acerca-texto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acerca-texto ul li {
+    margin-bottom: 8px;
+}
+
+.acerca-img img {
+    width: 320px;
+    border-radius: 10px;
+    border: 2px solid #f39c12;
+}
 
 .galeria {
     padding: 60px 20px;
@@ -142,9 +175,28 @@ footer {
     .cards {
         grid-template-columns: 1fr;
     }
+    .acerca-contenedor {
+        flex-direction: column-reverse;    
+        text-align: center;
+        gap: 30px;
+    }
 
-    .festival-contenedor {
-        flex-direction: column;
+    .acerca-texto {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .acerca-img img {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .acerca-texto ul {
+        padding: 0;
+    }
+
+    .acerca-texto ul li {
+        text-align: center;
     }
 
     .grid {
