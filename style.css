@@ -73,7 +73,7 @@ header {
 
 .card {
     background-color: #2a2a2a;
-    border-left: 4px solid #c47f3a; /* ese color cobre elegante */
+    border-left: 4px solid #c47f3a; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 14px rgba(0,0,0,0.3);
